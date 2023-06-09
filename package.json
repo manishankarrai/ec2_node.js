@@ -11,7 +11,11 @@
   },
   "scripts": {
     "start": "pm2 start server.js",
-    "stop": "pm2 stop server.js"
+    "stop": "pm2 stop server.js" ,
+    "status": "pm2 status",
+    "list": "pm2 list",
+    "kill" : "pm2 kill"
+
   },
   "keywords": [],
   "author": "",
